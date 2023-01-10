@@ -47,6 +47,7 @@ function App() {
           <div className="container">
             <div className="section section__inputs">
               <input
+                className="search"
                 onKeyDown={enterKeyPressed}
                 type="text"
                 name="city"
